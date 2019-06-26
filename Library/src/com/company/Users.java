@@ -1,27 +1,39 @@
 package com.company;
 
+
 public class Users {
-    private String userName;
-    private String userPosition;
+    private String sName;
+    private String sLastName;
+    private String sPosition;
 
-    public Users(String userName,String userPosition) {
-        setUserName(userName);
-        setUserName(userPosition);
+
+    public Users(String sName, String sLastName, String sPosition) {
+        setsName(sName);
+        setsLastName(sLastName);
+        setsPosition(sPosition);
     }
 
-    public String getUserName() {
-        return userName;
+    public String getsName() {
+        return sName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setsName(String sName) {
+        this.sName = sName;
     }
 
-    public String getUserPosition() {
-        return userPosition;
+    public String getsLastName() {
+        return sLastName;
     }
 
-    public void setUserPosition(String userPosition) {
-        this.userPosition = userPosition;
+    public void setsLastName(String sLastName) {
+        this.sLastName = sLastName;
+    }
+
+    public String getsPosition() {
+        return sPosition;
+    }
+
+    public void setsPosition(String sPosition) {
+        this.sPosition = sPosition;
     }
 }
